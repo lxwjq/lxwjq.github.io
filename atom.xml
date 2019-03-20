@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ThisLX</title>
+  
+  <subtitle>the stack of it nerds</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://inerdstack.com/"/>
+  <updated>2019-03-18T13:56:01.599Z</updated>
+  <id>http://inerdstack.com/</id>
+  
+  <author>
+    <name>ThisLX</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>XSS防护</title>
+    <link href="http://inerdstack.com/2019/03/18/Welcome/"/>
+    <id>http://inerdstack.com/2019/03/18/Welcome/</id>
+    <published>2019-03-18T07:16:22.491Z</published>
+    <updated>2019-03-18T13:56:01.599Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;1-XSS介绍&quot;&gt;&lt;a href=&quot;#1-XSS介绍&quot; class=&quot;headerlink&quot; title=&quot;1. XSS介绍&quot;&gt;&lt;/a&gt;1. XSS介绍&lt;/h2&gt;&lt;p&gt;XSS（Cross Site Scripting）, 中文名为跨站脚本, 是发生在目标用户的浏览
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://inerdstack.com/2019/01/31/hello-world/"/>
+    <id>http://inerdstack.com/2019/01/31/hello-world/</id>
+    <published>2019-01-31T03:59:48.938Z</published>
+    <updated>2019-01-31T03:59:48.939Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
