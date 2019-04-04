@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://inerdstack.com/"/>
-  <updated>2019-03-18T13:56:01.599Z</updated>
+  <updated>2019-04-04T09:57:23.036Z</updated>
   <id>http://inerdstack.com/</id>
   
   <author>
@@ -15,6 +15,66 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mybatis面试题整理</title>
+    <link href="http://inerdstack.com/2019/04/04/Mybatis%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    <id>http://inerdstack.com/2019/04/04/Mybatis面试题整理/</id>
+    <published>2019-04-04T09:57:32.000Z</published>
+    <updated>2019-04-04T09:57:23.036Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;2、Mybaits的优点：&lt;/strong&gt;&lt;br&gt;（1）基于SQL语句编程，相当灵活，不会对应用程序或者数据库的现有设计造成任何影响，SQL写在XML里，解除sql与程序代码的耦合，便于统一管理；提供XML标签，支持编写动态SQL语句，并可重用。&lt;br&gt;（
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础面试题整理</title>
+    <link href="http://inerdstack.com/2019/04/04/Java%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <id>http://inerdstack.com/2019/04/04/Java基础面试题/</id>
+    <published>2019-04-04T09:57:31.998Z</published>
+    <updated>2019-04-04T07:47:41.369Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;1、JAVA中的几种基本数据类型是什么，各自占用多少字节？&lt;/strong&gt;&lt;br&gt;浮点类型：float（4字节）、double（8个字）&lt;br&gt;整数类型：byte（1字节）、short（2字节）、int（4字节）、long（8字节）&lt;br&gt;字符类型：cha
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Spring面试题整理</title>
+    <link href="http://inerdstack.com/2019/04/04/Spring%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    <id>http://inerdstack.com/2019/04/04/Spring面试题整理/</id>
+    <published>2019-04-04T09:57:31.995Z</published>
+    <updated>2019-04-04T09:56:58.187Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;1. 使用Spring框架的好处是什么？&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;轻量：Spring 是轻量的，基本的版本大约2MB。&lt;/li&gt;
+&lt;li&gt;控制反转：Spring通过控制反转实现了松散耦合，对象们给出它们的依赖，而不是创建或查找依赖的对象们
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>XSS防护</title>
@@ -28,25 +88,6 @@
       
       
         &lt;h2 id=&quot;1-XSS介绍&quot;&gt;&lt;a href=&quot;#1-XSS介绍&quot; class=&quot;headerlink&quot; title=&quot;1. XSS介绍&quot;&gt;&lt;/a&gt;1. XSS介绍&lt;/h2&gt;&lt;p&gt;XSS（Cross Site Scripting）, 中文名为跨站脚本, 是发生在目标用户的浏览
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://inerdstack.com/2019/01/31/hello-world/"/>
-    <id>http://inerdstack.com/2019/01/31/hello-world/</id>
-    <published>2019-01-31T03:59:48.938Z</published>
-    <updated>2019-01-31T03:59:48.939Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
       
     
     </summary>
