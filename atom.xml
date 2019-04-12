@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://inerdstack.com/"/>
-  <updated>2019-04-04T09:57:23.036Z</updated>
+  <updated>2019-04-04T07:09:02.312Z</updated>
   <id>http://inerdstack.com/</id>
   
   <author>
@@ -17,17 +17,260 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Mybatis面试题整理</title>
-    <link href="http://inerdstack.com/2019/04/04/Mybatis%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
-    <id>http://inerdstack.com/2019/04/04/Mybatis面试题整理/</id>
-    <published>2019-04-04T09:57:32.000Z</published>
-    <updated>2019-04-04T09:57:23.036Z</updated>
+    <title></title>
+    <link href="http://inerdstack.com/2019/04/12/SQL%E4%BC%98%E5%8C%96%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    <id>http://inerdstack.com/2019/04/12/SQL优化面试题整理/</id>
+    <published>2019-04-12T02:10:11.903Z</published>
+    <updated>2019-04-04T07:09:02.312Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot面试题整理</title>
+    <link href="http://inerdstack.com/2019/04/12/SpringBoot%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    <id>http://inerdstack.com/2019/04/12/SpringBoot面试题整理/</id>
+    <published>2019-04-12T02:10:11.898Z</published>
+    <updated>2019-04-12T02:09:11.273Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;strong&gt;2、Mybaits的优点：&lt;/strong&gt;&lt;br&gt;（1）基于SQL语句编程，相当灵活，不会对应用程序或者数据库的现有设计造成任何影响，SQL写在XML里，解除sql与程序代码的耦合，便于统一管理；提供XML标签，支持编写动态SQL语句，并可重用。&lt;br&gt;（
+        &lt;p&gt;&lt;strong&gt;1、Spring Boot 的核心配置文件有哪几个？它们的区别是什么？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Spring Boot 的核心配置文件是 application 和 bootstrap 配置文件。&lt;br&gt;application 配置文件这个容易理解，
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Solr+ES面试题整理</title>
+    <link href="http://inerdstack.com/2019/04/12/Solr+ES%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    <id>http://inerdstack.com/2019/04/12/Solr+ES面试题整理/</id>
+    <published>2019-04-12T02:10:11.896Z</published>
+    <updated>2019-04-12T02:08:56.179Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;1、Solr原理&lt;/strong&gt;&lt;br&gt;Solr是基于Lucene开发的全文检索服务器，而Lucene就是一套实现了全文检索的api，其本质就是一个全文检索的过程。全文检索就是把原始文档根据一定的规则拆分成若干个关键词，然后根据关键词创建索引，当查询时先查
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Shiro面试题整理</title>
+    <link href="http://inerdstack.com/2019/04/12/Shiro%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    <id>http://inerdstack.com/2019/04/12/Shiro面试题整理/</id>
+    <published>2019-04-12T02:10:11.894Z</published>
+    <updated>2019-04-12T02:08:41.275Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;1、Shiro 的优点&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;简单的身份认证, 支持多种数据源&lt;/li&gt;
+&lt;li&gt;对角色的简单的授权, 支持细粒度的授权(方法级)&lt;/li&gt;
+&lt;li&gt;支持一级缓存，以提升应用程序的性能；&lt;/li&gt;
+&lt;li&gt;内置的基于 P
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Redis面试题整理</title>
+    <link href="http://inerdstack.com/2019/04/12/Redis%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    <id>http://inerdstack.com/2019/04/12/Redis面试题整理/</id>
+    <published>2019-04-12T02:10:11.892Z</published>
+    <updated>2019-04-12T02:08:26.898Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;1、什么是Redis？简述它的优缺点？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Redis本质上是一个Key-Value类型的内存数据库，很像memcached，整个数据库统统加载在内存当中进行操作，定期通过异步操作把数据库数据flush到硬盘上进行保存。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx面试题整理</title>
+    <link href="http://inerdstack.com/2019/04/12/Nginx%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    <id>http://inerdstack.com/2019/04/12/Nginx面试题整理/</id>
+    <published>2019-04-12T02:10:11.890Z</published>
+    <updated>2019-04-12T02:08:00.660Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;1、请解释一下什么是Nginx?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nginx是一个web服务器和方向代理服务器，用于HTTP、HTTPS、SMTP、POP3和IMAP协议。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2、Nginx和apache的区别？&lt;/strong&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MQ面试题整理</title>
+    <link href="http://inerdstack.com/2019/04/12/MQ%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    <id>http://inerdstack.com/2019/04/12/MQ面试题整理/</id>
+    <published>2019-04-12T02:10:11.887Z</published>
+    <updated>2019-04-12T02:07:15.710Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;1、Activemq的作用以及原理&lt;/strong&gt;&lt;br&gt;Activemq 的作用就是系统之间进行通信。 当然可以使用其他方式进行系统间通信， 如果使用 Activemq 的话可以对系统之间的调用进行解耦， 实现系统间的异步通信。 原理就是生产者生产消息，
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Mongodb面试题整理</title>
+    <link href="http://inerdstack.com/2019/04/12/Mongodb%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    <id>http://inerdstack.com/2019/04/12/Mongodb面试题整理/</id>
+    <published>2019-04-12T02:10:11.884Z</published>
+    <updated>2019-04-12T02:06:53.691Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;1、使用mongodb的优点&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;面向文件&lt;/li&gt;
+&lt;li&gt;高性能 &lt;/li&gt;
+&lt;li&gt;高可用 &lt;/li&gt;
+&lt;li&gt;易扩展 &lt;/li&gt;
+&lt;li&gt;可分片 &lt;/li&gt;
+&lt;li&gt;对数据存储友好&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JVM面试题整理</title>
+    <link href="http://inerdstack.com/2019/04/12/JVM%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    <id>http://inerdstack.com/2019/04/12/JVM面试题整理/</id>
+    <published>2019-04-12T02:10:11.882Z</published>
+    <updated>2019-04-12T02:06:30.161Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;1、JVM内存模型都有哪些&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;程序计数器&lt;/li&gt;
+&lt;li&gt;java虚拟机栈&lt;/li&gt;
+&lt;li&gt;本地方法栈&lt;/li&gt;
+&lt;li&gt;java堆&lt;/li&gt;
+&lt;li&gt;方法区&lt;/li&gt;
+&lt;li&gt;运行时常量池&lt;/li&gt;
+&lt;li&gt;直
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Dubbo面试题整理</title>
+    <link href="http://inerdstack.com/2019/04/12/Dubbo%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    <id>http://inerdstack.com/2019/04/12/Dubbo面试题整理/</id>
+    <published>2019-04-12T02:10:11.879Z</published>
+    <updated>2019-04-12T02:05:54.147Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;1、dubbo都支持什么协议，推荐用哪种？&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dubbo://（推荐）&lt;/li&gt;
+&lt;li&gt;rmi://&lt;/li&gt;
+&lt;li&gt;hessian://&lt;/li&gt;
+&lt;li&gt;http://&lt;/li&gt;
+&lt;li&gt;webservice
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Tomcat面试题整理</title>
+    <link href="http://inerdstack.com/2019/04/12/Tomcat%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    <id>http://inerdstack.com/2019/04/12/Tomcat面试题整理/</id>
+    <published>2019-04-12T02:10:11.876Z</published>
+    <updated>2019-04-12T02:09:49.249Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;1、Tomcat 有哪几种Connector 运行模式(优化)？&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;bio：传统的Java I/O操作，同步且阻塞IO。&lt;/li&gt;
+&lt;li&gt;nio：JDK1.4开始支持，同步阻塞或同步非阻塞IO。&lt;/li&gt;
+&lt;li&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MyBatis面试题整理</title>
+    <link href="http://inerdstack.com/2019/04/04/Mybatis%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    <id>http://inerdstack.com/2019/04/04/Mybatis面试题整理/</id>
+    <published>2019-04-04T09:57:32.000Z</published>
+    <updated>2019-04-12T02:07:42.374Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;1、Mybaits的优点：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;基于SQL语句编程，相当灵活，不会对应用程序或者数据库的现有设计造成任何影响，SQL写在XML里，解除sql与程序代码的耦合，便于统一管理；提供XML标签，支持编写动态SQL语句，并可重
       
     
     </summary>
@@ -59,7 +302,7 @@
     <link href="http://inerdstack.com/2019/04/04/Spring%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
     <id>http://inerdstack.com/2019/04/04/Spring面试题整理/</id>
     <published>2019-04-04T09:57:31.995Z</published>
-    <updated>2019-04-04T09:56:58.187Z</updated>
+    <updated>2019-04-12T02:04:40.300Z</updated>
     
     <summary type="html">
     
@@ -69,25 +312,6 @@
 &lt;ul&gt;
 &lt;li&gt;轻量：Spring 是轻量的，基本的版本大约2MB。&lt;/li&gt;
 &lt;li&gt;控制反转：Spring通过控制反转实现了松散耦合，对象们给出它们的依赖，而不是创建或查找依赖的对象们
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>XSS防护</title>
-    <link href="http://inerdstack.com/2019/03/18/Welcome/"/>
-    <id>http://inerdstack.com/2019/03/18/Welcome/</id>
-    <published>2019-03-18T07:16:22.491Z</published>
-    <updated>2019-03-18T13:56:01.599Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;1-XSS介绍&quot;&gt;&lt;a href=&quot;#1-XSS介绍&quot; class=&quot;headerlink&quot; title=&quot;1. XSS介绍&quot;&gt;&lt;/a&gt;1. XSS介绍&lt;/h2&gt;&lt;p&gt;XSS（Cross Site Scripting）, 中文名为跨站脚本, 是发生在目标用户的浏览
       
     
     </summary>
